@@ -1,0 +1,165 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Maria Santibanez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="assets/Javascript/java.js"></script>
+</head>
+
+<body>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">About</a>
+          <a href="#">Projects</a>
+          <a href="#">Education</a>
+          <a href="#">Contact</a>
+        </div>
+        
+        <div id="navBtn">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+
+
+        <div id="main-heading">
+          <h1>Maria Santibanez</h2>
+          <p>Full Stack Web Development</p>
+        </div>
+
+        <div id="main-container" class="container">
+                <section class="main-section">
+                  <h1>About Me</h1>
+            
+                  <img id="pup" src="assets/images/bernie.jpg" class="auth-image" alt="Your Name">
+            
+                  <p> My name is Maria, and I am a budding fullstack developer!</p>
+            
+                </section>
+
+                <section class="colorlib-education" data-section="education">
+                        <div class="colorlib-narrow-content">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" ></div>
+                                    
+                                    <h2>Education</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="fancy-collapse-panel">
+                                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="headingOne">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Southern Methodist University Full Stack Code Academy
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                     <div class="panel-body">
+                                                        <div class="row">
+                                                              <div class="col-md-6">
+                                                                  <p>Proficiency in Java, C++, C#, HTML/CSS, Javascript, jQuery, Python, Bootstrap, webdesign, Firebase console and API utilization. 
+                                                                Microsoft Word, Excel, PowerPoint  </p>
+                                                              </div>
+                                                              
+                                                          </div>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="headingTwo">
+                                                    <h4 class="panel-title">
+                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelors of Arts in Interdisciplinary Sciences
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="panel-body">
+                                                        <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+
+
+                <div id="contact" class="container">
+                        <h3 class="text-center">Contact</h3>
+                        <p class="text-center"><em>Send me a message!</em></p>
+                      
+                        <div class="row">
+                          <div class="col-md-4">
+                            <p>Maria Santibanez</p>
+                            <p><span class="glyphicon glyphicon-map-marker"></span>Dallas,Tx</p>
+                            <p><span class="glyphicon glyphicon-phone"></span>Phone: (713) 898 0483 </p>
+                            <p><span class="glyphicon glyphicon-envelope"></span>Email: maryf.santibanez@gmail.com</p>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="row">
+                              <div class="col-sm-6 form-group">
+                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                              </div>
+                              <div class="col-sm-6 form-group">
+                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                              </div>
+                            </div>
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-12 form-group">
+                                <button class="btn pull-right" type="submit">Send</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+            
+              </div>
+
+              </div>
+            
+              
+
+
+
+
+               
+
+
+                        <footer>
+                                <div class="container">
+                                  Copyright 2019 &copy; 
+                                </div>
+            
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main-heading", "main-container", "main-section").style.marginLeft = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main-heading", "main-container", "main-section").style.marginLeft= "0";
+          document.body.style.backgroundColor = "white";
+        }
+        </script>
+
+
+
+           
+        </body>
+        </html> 
+        
