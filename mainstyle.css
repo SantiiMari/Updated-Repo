@@ -1,0 +1,82 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s !important;
+    /* background:darkgrey; */
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:darkslategrey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #navBtn {
+    float: left;
+  }
+  #main-heading {
+    background: teal;
+    transition: margin-left .5s;
+    padding: 16px;
+    text-align: center;
+  }
+  #main-container{
+        margin: auto;
+        transition: margin-left .5s;
+        min-height: calc(100vh - 70px);
+        text-align: center;
+        align-content: center;
+        max-width: 960px;
+  }
+  .h1{
+      position: relative;
+  }
+  .h2 {
+      text-align: center;
+  }
+  #pup {
+      max-height: 100px;
+      max-width: 100px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .colorlib-education {
+
+    padding-top: 4em;
+    padding-bottom: 9em;
+    clear: both;
+    width: 100%;
+    display: block;
+    padding-top: 5em;
+    padding-bottom: 8em; }
